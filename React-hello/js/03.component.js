@@ -30,3 +30,5 @@ const el = (
   </div>
 )
 ReactDOM.render(el, app)
+
+console.log(React)
