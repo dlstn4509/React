@@ -1,7 +1,10 @@
+// componentDidMount, componentDidUpdate
 const { Component, createRef } = React;
 const { render } = ReactDOM;
 const postURL = 'https://jsonplaceholder.typicode.com/posts';
 const userURL = 'https://jsonplaceholder.typicode.com/users';
+
+// a ? (b ? 'b' : 'a') : 'c';
 
 class Search extends Component {
   brClose = { right: '1em', cursor: 'pointer' };
