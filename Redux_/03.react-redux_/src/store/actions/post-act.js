@@ -12,6 +12,4 @@ const removePost = (payload) => {
   };
 };
 
-const postAction = { addPost, removePost };
-
-export default postAction;
+export { addPost, removePost };

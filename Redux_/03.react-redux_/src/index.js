@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <Provider store={store}>
+    {/* 다 만든 store 뿌리기 */}
     <App />
   </Provider>,
   document.getElementById('root')
